@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 export const SignUp: VFC = () => {
   return (
-    // 次はここ
     <div>ログイン画面</div>
     // <div className="signup js-signup-style">
     //   <form className="signup-formStyle" @submit.prevent="signUp">
