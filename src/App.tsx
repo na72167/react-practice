@@ -14,16 +14,15 @@ import { Footer } from './layouts/Footer.tsx';
 const App: VFC = () => {
   return (
     <BrowserRouter>
-      <Header />
+      <Header/>
         <div>
-          テスト
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/About" component={About} />
             <Route exact path="/Users" component={Users} />
           </Switch>
         </div>
-      <Footer />
+      <Footer/>
     </BrowserRouter>
   );
 }
